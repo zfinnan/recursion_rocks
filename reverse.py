@@ -1,11 +1,9 @@
-# Write code inside the functions
 # You will have to figure out what parameters to include
 # 🚨 All functions must use recursion 🚨
 
 # Write a recursive function called `reverse` that accepts a ss and returns a reversed ss.
 
 def reverse(ss):
-
     # Write code here
     pass
 

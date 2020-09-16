@@ -1,11 +1,11 @@
 # You will have to figure out what parameters to include
 # 🚨 All functions must use recursion 🚨
 
-# This function returns the largest number in a given array.
+# This function returns the factorial of a given number.
 
-def find_max(l):
+def factorial(n):
     # Write code here
     pass
 
-# print(find_max([1, 4, 45, 6, -50, 10, 2]))
-# => 45
+# print(factorial(5))
+# => 120
