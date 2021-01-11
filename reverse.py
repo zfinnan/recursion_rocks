@@ -11,6 +11,8 @@ def reverse(ss):
         i = i - 1
     return rs
 
+print(reverse("testing"))
+
 # print(reverse("")) 
 # => ""
 # print(reverse("a")) 

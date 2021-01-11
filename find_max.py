@@ -3,12 +3,15 @@
 
 # This function returns the largest number in a given array.
 
-def find_max(l):
-    max = l[0]
-    for i in l:
-        if i > max:
-            max = i
-    return max
+import math
 
-# print(find_max([1, 4, 45, 6, -50, 10, 2]))
-# => 45
+def find_max(l, current_max = -math.inf):
+    if len(l) == 0:
+        return current_max
+    if l[0] > current_max:
+        new_current_max = l[0]
+    else:
+        new_current_max = current_max
+    return find_max(l[1:], new_current_max)
+
+print(find_max([1, 4, 45, 6, -50, 10, 2, 70]))

@@ -11,4 +11,3 @@ def factorial(n):
     return total
 
 print(factorial(5))
-=> 120
