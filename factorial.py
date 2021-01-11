@@ -4,8 +4,11 @@
 # This function returns the factorial of a given number.
 
 def factorial(n):
-    # Write code here
-    pass
+    fact_nums = [x for x in range(1,n+1)]
+    total = 1
+    for num in fact_nums:
+        total *= num
+    return total
 
-# print(factorial(5))
-# => 120
+print(factorial(5))
+=> 120

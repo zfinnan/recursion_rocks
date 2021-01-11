@@ -4,8 +4,12 @@
 # Write a recursive function called `reverse` that accepts a ss and returns a reversed ss.
 
 def reverse(ss):
-    # Write code here
-    pass
+    rs = ''
+    i = len(ss)
+    while i > 0:
+        rs += ss[i - 1]
+        i = i - 1
+    return rs
 
 # print(reverse("")) 
 # => ""

@@ -10,8 +10,7 @@
 # ...
 
 def pretty_print(dictionary, indent):
-    # Write code here
-    pass
+    
 
 o1 = {"a": 1, "b": 2}
 o2 = {"a": 1, "b": 2, "c": {"name": "Bruce Wayne", "occupation": "Hero"}, "d": 4}
